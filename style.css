@@ -10,8 +10,8 @@
 
 }
 img{
-    width: 134px;
-    height: 87px;
+    width: 100px;
+    height: 57px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,25 +19,29 @@ img{
 }
 
 body{
-    width: 414px;
-    height: 1026px;
+    width: 320px;
+    height: 676px;
     background: var(--amarelo);
 }
 
 
 
 /*-----------------------Header-----------------------------*/
-
+.container{
+    left: -2px;
+    width: 320px;
+    position: absolute;
+}
 
 .logo{
     
-    
+    z-index: 3;
     height: 92px;
-    background:var(--laranja);
+    background:var(--vermelho);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: left;
     position: fixed;
-    width: 414px;
+    width: 100%;
     top: 0;
     left: 0;
     
@@ -55,7 +59,7 @@ body{
     color: white;
     font-size: 28px;
     top: 16px;
-    left: 57px;
+    left: 50px;
     font-weight: bolder;
 }
 .logo a{
@@ -76,7 +80,7 @@ body{
 /*-----------------------Main-----------------------------*/
 
 main{
-    width: 414px;
+    width: 320px;
     position: absolute;
     top: 115px;
 }
@@ -85,46 +89,46 @@ main{
 .salgados {
     display: flex;
     margin: 0px 10px;
-    width: 412px;
+    width: 320px;
     overflow-x: auto;
 }
 .box{
-    min-width: 109px;
-    height: 183px;
+    min-width: 93px;
+    height: 130px;
     flex-shrink: 0;
     border: 1px solid rgba(128, 128, 128, 0.451);
     padding: 5px 3px;
     align-items: center;
     margin-right: 10px;
     border-radius: 6px;
-    margin-top: 20px;
-    background-color: var(--laranja);
+    margin-top: 10px;
+    background-color: var(--vermelho);
 }
 
 .salgados h3{
     position: absolute;
-    left: 18px;
+    left: 16px;
+    top: -16px;
     font-size: 15px;
     color: white;
     text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.636);
 
 }
 h4{
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 5px -9px;
+    font-size: 14px;
     text-align-last: center;
     font-weight: bolder;
     color: var(--amarelo);
 }
 p{
-    padding: 0px 10px;
-    font-size: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
     color: white;
 }
 h6{
     padding: 5px 10px;
     font-size: 14px;
-    font-weight: bolder;
     color: white;
 }
 
@@ -132,12 +136,12 @@ h6{
 .bebidas{
     display: flex;
     margin: 17px 10px;
-    width: 412px;
+    width: 320px;
     overflow-x: auto;
 }
 .bebidas h3{
     position: absolute;
-    top: 228px;
+    top: 156px;
     left: 18px;
     font-size: 15px;
     color: white;
@@ -149,12 +153,12 @@ h6{
 .doces{
     display: flex;
     margin: 17px 10px;
-    width: 412px;
+    width: 320px;
     overflow-x: auto;
 }
 .doces h3{
     position: absolute;
-    top: 464px;
+    top: 328px;
     left: 18px;
     font-size: 15px;
     color: white;
@@ -165,26 +169,27 @@ h6{
 
 footer{
     width: 100%;
-    height: 82px;
+    height: 49px;
     flex-shrink: 0;
-    background-color: var(--laranja);
-    top: 967px;
+    background-color: var(--vermelho);
+    bottom: 0px;
     text-align: center;
     position: fixed;
     left: 0;
+    z-index: 2;
     
 }
 footer button{
     width: 189px;
-    height: 47px;
+    height: 36px;
     flex-shrink: 0;
     border-radius: 50px;
     background: var(--amarelo);
     color: white;
     border: none;
     position: absolute;
-    left: 52px;
-    top: 21px;
+    left: 100px;
+    top: 8px;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 12px;
 }
