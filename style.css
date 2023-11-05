@@ -103,7 +103,7 @@ main{
 }
 .box{
     min-width: 93px;
-    height: 130px;
+    height: 120px;
     flex-shrink: 0;
     border: 1px solid rgba(128, 128, 128, 0.451);
     padding: 5px 3px;
@@ -150,7 +150,7 @@ h6{
 }
 .bebidas h3{
     position: absolute;
-    top: 156px;
+    top: 146px;
     left: -4px;
     font-size: 15px;
     color: white;
@@ -169,7 +169,7 @@ h6{
 }
 .doces h3{
     position: absolute;
-    top: 328px;
+    top: 311px;
     left: -4px;
     font-size: 15px;
     color: white;
@@ -206,3 +206,50 @@ footer button{
     padding: 5px 10px;
     font-size: 12px;
 }
+
+/*-------------------Alterações após JavaScript-----------------------*/
+
+
+.escolhido{
+    border: 4px solid green;
+    background-color: rgb(255, 0, 0);
+}
+
+.corDoBtn{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*----------------------------Resumo Pedido-------------------------*/
+.pedido{
+    position: absolute;
+    top: -36px;
+}
+.ResumoPedido{
+    position: absolute;
+    z-index: 4;
+    width: 310px;
+    height: 353px;
+    top: 160px;
+    left: 8px;
+    border-radius: 9px;
+    background-color: green;
+    margin: 30px;
+
+}
+
+.ResumoPedido h1{
+    color: #FFF;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
